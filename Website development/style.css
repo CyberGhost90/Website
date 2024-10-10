@@ -1,0 +1,175 @@
+/*Styling navigation, make it stick to the top of every page*/
+#navigation{position:sticky;
+            top:0;
+            background-color:black;
+            padding:0;
+            box-shadow:0px 2px 5px rgba(0,0,0,0,3);
+            font-family:"Lucida Console","Courier New",monospace;
+            font-size: 20px;      
+}
+/*Style the list, make it be evenly spaced*/
+#navigation ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:space-between;
+}
+#navigation li{
+    margin:0 10px;
+}
+/*Style the hyperlinks in the list*/
+#navigation a{
+    text-decoration:none;
+    color:#333;
+    color:white; 
+    padding-top: 40px;  
+}
+#navlogo{ width:100px;
+        height:100px;
+        border-radius:40%;
+}/*end of navigation styling, this tags make the navigation bar at the top stick to the top and appear side by side*/
+
+/*Style the body of every html page, these rules are universal in this project*/
+body {  
+    font-family: 'Arial', sans-serif;  
+    line-height: 1.6;  
+    color: #333;  
+    width: 100%;
+   font-size: 20px;
+   background-image: url("./image/logo.jpg");
+   background-size: 100%;
+}  
+/* Header Styles */  
+.homepage-header {  
+    background-image: none;
+    background-color: #333;  
+    color: #fff;  
+    text-align: center;  
+    padding: 20px 0;  
+}  
+
+.homepage-header h1 {  
+    margin-bottom: 10px;  
+}
+/*Styles the main heading of the homepage*/
+.homepage-main {  
+    padding: 20px 0;  
+    max-width: 960px;  
+    margin: 0 auto;  
+}  
+/*Styles the heading section in the main page*/
+.homepage-section {  
+    margin-bottom: 30px;  
+    background-color: #fff;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}  
+/*Styles the level 2 heading of the homepage*/
+.homepage-section h2 {  
+    margin-bottom: 15px;  
+    font-size: 24px;  
+}  
+/*styles the paragraphs of the homepage*/
+.homepage-section p {  
+    margin-bottom: 10px;  
+    line-height: 1.8;  
+}  
+
+/* Styles the button in the homepage */  
+.homepage-button {  
+    background-color: #007bff;  
+    color: #fff;  
+    border: none;  
+    padding: 10px 20px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease;  
+}  
+
+.homepage-button:hover {  
+    background-color: #0056b3;  
+}  
+
+/* Image Styles */  
+.homepage-section img {  
+    max-width: 100%;  
+    height: auto;  
+    border-radius: 8px;  
+    margin-bottom: 15px;  
+} 
+ 
+/*Styles the top section of the body*/
+.topbody{
+    position: relative;
+    text-align: left;
+}
+#topbody-text{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+#topbody-text h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#image{
+    float:left;
+    width:fit-content;
+}
+/*Styles the resumes on the members page */
+#resume{
+    margin-left: 30%;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+/*this changes the font of the headings in the resumes*//*this changes the font of the headings in the resumes*/
+#body h1,h4{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-align: center;
+}
+/*Styles the footer section of the pages. The list at the footer and and make it move with the page*/
+.footer{
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+ 
+#footer-list a{color:white;}
+/*this makes the list items appear next to each other in the footer section*/
+#footer-list{
+    display: inline-block;
+    margin: 15px;
+}
+/*This styles the table on the service section*/
+table{   
+    font-size: larger;
+    color: rgb(74, 89, 175);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+td{
+    border:1px solid black;
+    word-wrap: break-word;
+}
+/*Changes the background image in the service section*/
+.service{
+    background-image: url("./image/logo.jpg");
+    background-size: cover;
+}
+/*Changes the border on the testimonial*/
+.reviews{
+    border:2px solid grey;
+}
+
